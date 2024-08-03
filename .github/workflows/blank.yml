@@ -1,0 +1,44 @@
+name: Update Repositories List
+
+on:
+  schedule:
+    - cron: "0 0 * * 1"  # Runs at midnight UTC every Monday
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  update-repo-list:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Fetch repositories
+        run: |
+          # Fetch the list of repositories you have contributed to
+          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+          "https://api.github.com/users/WycliffeAlphus/repos?type=all&sort=updated" \
+          | jq -r '.[] | "- [\(.name)](\(.html_url))" ' \
+          > repos.md
+
+      - name: Update README
+        run: |
+          # Ensure placeholders are present; if not, create them
+          if ! grep -q "<!--START_SECTION:repos-->" README.md; then
+            echo "## 📂 Current Contributions" >> README.md
+            echo "<!--START_SECTION:repos-->" >> README.md
+            echo "<!--END_SECTION:repos-->" >> README.md
+          fi
+
+          # Update the section between placeholders
+          awk '/<!--START_SECTION:repos-->/ {print; system("cat repos.md"); next} 1' README.md > new_README.md
+          
+          # Replace the old README with the updated one
+          mv new_README.md README.md
+
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          add: 'README.md'
+          message: 'Update repository list in README'
+          author_name: 'GitHub Actions'
+          author_email: 'actions@github.com'
