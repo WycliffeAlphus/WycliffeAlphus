@@ -22,5 +22,4 @@ Feel free to explore my repositories and check out the various projects I've bee
 <!--START_SECTION:repos-->
 <!--END_SECTION:repos-->
 
-
 Happy coding! 😊
