@@ -17,8 +17,10 @@ Welcome to my GitHub profile. I'm passionate about programming and enjoy working
 
 Feel free to explore my repositories and check out the various projects I've been working on. If you have any questions or suggestions, don't hesitate to reach out!
 
-## 📂 Recent Activity
+## 📂 Current Contributions
 
-[![Wycliffe's Activity Graph](https://activity-graph.herokuapp.com/graph?username=WycliffeAlphus&theme=github)](https://github.com/WycliffeAlphus)
+<!--START_SECTION:repos-->
+<!--END_SECTION:repos-->
+
 
 Happy coding! 😊
