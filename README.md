@@ -1,6 +1,6 @@
 # Hello, I'm Wycliffe Alphus! 👋
 
-Welcome to my GitHub profile. I'm passionate about programming and enjoy working on a variety of projects. Here's a bit about what I'm working on and what you can find on my GitHub.
+Welcome to my GitHub profile.
 
 ## 🛠 Skills & Technologies
 
