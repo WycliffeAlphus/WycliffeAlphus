@@ -4,9 +4,9 @@ Welcome to my GitHub profile. I'm passionate about programming and enjoy working
 
 ## 🚀 Current Projects
 
-- **[ASCII-Art Web Server](https://github.com/WycliffeAlphus/ascii-art-web-server):** A web server that generates ASCII art using different banners (shadow, standard, thinkertoy) through a user-friendly web GUI.
-- **[Tetromino Puzzle Solver](https://github.com/WycliffeAlphus/tetromino-puzzle-solver):** A Go program that assembles tetrominoes into the smallest possible square.
-- **[Blockchain Market Data](https://github.com/WycliffeAlphus/blockchain-market-data):** A blockchain project in Go that involves authorities adding blocks with market information.
+- **[ASCII-Art Web Server]():** A web server that generates ASCII art using different banners (shadow, standard, thinkertoy) through a user-friendly web GUI.
+- **[Tetromino Puzzle Solver]():** A Go program that assembles tetrominoes into the smallest possible square.
+- **[Blockchain Market Data]():** A blockchain project in Go that involves authorities adding blocks with market information.
 
 ## 🛠 Skills & Technologies
 
