@@ -2,12 +2,6 @@
 
 Welcome to my GitHub profile. I'm passionate about programming and enjoy working on a variety of projects. Here's a bit about what I'm working on and what you can find on my GitHub.
 
-## 🚀 Current Projects
-
-- **[ASCII-Art Web Server]():** A web server that generates ASCII art using different banners (shadow, standard, thinkertoy) through a user-friendly web GUI.
-- **[Tetromino Puzzle Solver]():** A Go program that assembles tetrominoes into the smallest possible square.
-- **[Blockchain Market Data]():** A blockchain project in Go that involves authorities adding blocks with market information.
-
 ## 🛠 Skills & Technologies
 
 - **Languages:** Go, Python, JavaScript, Rust
