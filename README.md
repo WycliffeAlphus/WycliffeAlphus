@@ -19,12 +19,6 @@ Welcome to my GitHub profile. I'm passionate about programming and enjoy working
 
 ![Wycliffe's GitHub Stats](https://github-readme-stats.vercel.app/api?username=WycliffeAlphus&show_icons=true&hide_title=true&count_private=true&hide=prs)
 
-## 🔗 Connect with Me
-
-- [LinkedIn](https://www.linkedin.com/in/wycliffealphus/)
-- [Twitter](https://twitter.com/wycliffealphus)
-- [Portfolio](https://wycliffealphus.dev)
-
 ## 📚 Learn More About My Projects
 
 Feel free to explore my repositories and check out the various projects I've been working on. If you have any questions or suggestions, don't hesitate to reach out!
