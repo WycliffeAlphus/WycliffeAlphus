@@ -17,9 +17,4 @@ Welcome to my GitHub profile. I'm a passionate software developer with a keen in
 
 Feel free to explore my repositories and check out the various projects I've been working on. If you have any questions or suggestions, don't hesitate to reach out!
 
-## 📂 Current Contributions
-
-<!--START_SECTION:repos-->
-<!--END_SECTION:repos-->
-
 Happy coding! 😊
