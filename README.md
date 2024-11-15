@@ -6,8 +6,8 @@ Welcome to my GitHub profile. I'm a passionate software developer with a keen in
 
 - **Languages:** Go, Python, JavaScript, Rust
 - **Web Development:** HTML, CSS, JavaScript, RESTful APIs
-- **Tools:** Git, Docker
-- **Concepts:** Blockchain, Algorithms, Data Structures
+- **Tools:** Git, Docker, Figma
+- **Concepts:** Cryptography, Algorithms, Data Structures
 
 ## 📈 GitHub Stats
 
